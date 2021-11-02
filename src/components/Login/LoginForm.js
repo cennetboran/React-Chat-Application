@@ -12,14 +12,14 @@ const LoginForm = () => {
   async function handleSubmit(e) {
     e.preventDefault();
     const authObject = {
-      "Project-ID": "c37528bc-a598-4a5e-aafa-617c3f28d977",
+      "Project-ID": "ac1af39c-9a05-44c3-b40c-9bfe712d95d4",
       "User-Name": username,
       "User-Secret": password,
     };
 
     try {
       setLoading(true);
-      await axios.get("https://api.chatengine.io/chats", {
+      await axios.get("https://api.chatengine.io/people", {
         headers: authObject,
       });
       localStorage.setItem("username", username);
