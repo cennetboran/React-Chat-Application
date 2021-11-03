@@ -19,7 +19,7 @@ const MyMessage = ({ message }) => {
         float: "right",
         marginLeft: "18px",
         color: "#000",
-        backgroundColor: "rgba(232,170,20,0.3)",
+        backgroundColor: "rgba(4, 129, 204, 0.3)",
       }}
     >
       {message.text}
