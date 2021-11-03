@@ -1,4 +1,5 @@
 import React from "react";
+import "./Message.css";
 
 const MyMessage = ({ message }) => {
   if (message?.attachments?.length > 0) {
